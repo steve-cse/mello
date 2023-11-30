@@ -30,7 +30,7 @@ lora_dropout: 0.05
 lora_target_linear: true
 lora_fan_in_fan_out:
 
-wandb_project:
+wandb_project: mello
 wandb_entity:
 wandb_watch:
 wandb_run_id:
