@@ -13,8 +13,6 @@ datasets:
     type: alpaca
   - path: steve-cse/psychology-dataset
     type: alpaca
-  - path: steve-cse/mental_health_counseling_conversations
-    type: alpaca
 dataset_prepared_path:
 val_set_size: 0.05
 output_dir: ./lora-out
