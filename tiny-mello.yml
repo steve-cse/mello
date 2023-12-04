@@ -1,4 +1,4 @@
-base_model: PY007/TinyLlama-1.1B-intermediate-step-715k-1.5T
+base_model: TinyLlama/TinyLlama-1.1B-Chat-v0.6
 
 model_type: LlamaForCausalLM
 tokenizer_type: LlamaTokenizer
@@ -9,7 +9,7 @@ load_in_4bit: false
 strict: false
 
 datasets:
-  - path: steve-cse/psychology-dataset
+  - path: steve-cse/mental_health_counseling_conversations
     type: alpaca
 dataset_prepared_path:
 val_set_size: 0.05
