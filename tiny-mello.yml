@@ -1,4 +1,4 @@
-base_model: TinyLlama/TinyLlama-1.1B-intermediate-step-955k-token-2T
+base_model: TinyLlama/TinyLlama-1.1B-Chat-v0.6
 
 model_type: LlamaForCausalLM
 tokenizer_type: LlamaTokenizer
@@ -9,8 +9,8 @@ load_in_4bit: false
 strict: false
 
 datasets:
-  - path: wesley7137/psychology1cllm
-    type: completion
+  - path: steve-cse/psychology-dataset
+    type: alpaca
 dataset_prepared_path:
 val_set_size: 0.05
 output_dir: ./lora-out
