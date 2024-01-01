@@ -3,8 +3,8 @@ model_type: MistralForCausalLM
 tokenizer_type: LlamaTokenizer
 is_mistral_derived_model: true
 
-load_in_8bit: true
-load_in_4bit: false
+load_in_8bit: false
+load_in_4bit: true
 strict: false
 
 datasets:
