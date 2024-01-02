@@ -10,8 +10,6 @@ strict: false
 datasets:
   - path: steve-cse/counsel_chat
     type: alpaca
-  - path: steve-cse/psychology-dataset
-    type: alpaca
 dataset_prepared_path:
 val_set_size: 0.05
 output_dir: ./qlora-out
@@ -45,7 +43,7 @@ wandb_log_model:
 
 gradient_accumulation_steps: 4
 micro_batch_size: 2
-num_epochs: 3
+num_epochs: 1
 optimizer: adamw_bnb_8bit
 lr_scheduler: cosine
 learning_rate: 0.0002
